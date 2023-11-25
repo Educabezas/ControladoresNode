@@ -280,4 +280,9 @@
   line-height: normal;
   margin-top: var(--spacing-48);
   margin-bottom: var(--spacing-128);
+  transition: background 0.2s ease-in-out;
+}
+
+.btn_pay:hover {
+  background-color: var(--secondary-solid);
 }

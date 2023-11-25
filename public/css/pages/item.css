@@ -79,16 +79,6 @@
   background-position-y: center;
 }
 
-.add_cart{
-  width: 180px;
-  height: var(--spacing-36);
-  border: none;
-  border-radius: 0%;
-  background-color: var(--primary-solid);
-  color: var(--light-bg-solid);
-  outline: none;
-}
-
 .cantItems {
   display: flex;
   flex-flow: row;

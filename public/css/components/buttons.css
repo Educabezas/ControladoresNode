@@ -1,4 +1,24 @@
 /* botones */
+.all_btn {
+    border: none;
+    cursor: pointer;
+}
+
+.button_primary {
+    width: 180px;
+    height: var(--spacing-36);
+    border: none;
+    border-radius: 0%;
+    background-color: var(--primary-solid);
+    color: var(--light-font-solid);
+    outline: none;
+    transition: background 0.2s ease-in-out;
+}
+
+.button_primary:hover {
+    background-color: var(--secondary-solid);
+}
+
 /* boton fondo blanco letras negras */
 .boton-shop {
     cursor: pointer;
@@ -34,5 +54,5 @@
     background: var(--primary-solid);
     border: var(--primary-solid);
     color: var(--light-font-solid);
-    
+
 }

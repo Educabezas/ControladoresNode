@@ -119,3 +119,7 @@
     font-weight: 500;
     transition: background .3s ease-in-out;
 }
+
+.btn_contact:hover {
+    background-color: var(--primary-solid);
+}

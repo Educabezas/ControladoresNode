@@ -117,4 +117,9 @@
     outline: none;
     width: 175px;
     height: 45px;
+    transition: background 0.2s ease-in-out;
+}
+
+.action_btn:hover {
+    background-color: var(--secondary-solid );
 }

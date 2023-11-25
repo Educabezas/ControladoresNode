@@ -84,6 +84,11 @@
     outline: none;
     height: 40px;
     width: 100px;
+    transition: background 0.2s ease-in-out;
+}
+
+.boton:hover {
+    background-color: var(--secondary-solid);
 }
 
 .rec {
